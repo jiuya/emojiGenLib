@@ -1,10 +1,10 @@
 # emojiGenLib
 Emoji Generate Library
 
-# Requirements
+## Requirements
 - CMake 3.5.1
 
-# Getting Started
+## Getting Started
 ```
 cd emojiGenLib
 cmake ./build
