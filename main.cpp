@@ -1,6 +1,6 @@
 #include <iostream>
 #include "emojiGenLib/emojigenlib.hpp"
-#include "opencv2/highgui.hpp"
+#include "opencv2/highgui/highgui.hpp"
 
 using namespace std;
 using namespace cv;

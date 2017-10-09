@@ -3,7 +3,10 @@ add_library(emojiGenLib STATIC
     emojigenlib.cpp
     emojigenlib.hpp
 )
-find_package(OpenCV REQUIRED)
+#find_package(OpenCV REQUIRED)
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(OpenCV opencv REQUIRED)
+
 if(OpenCV_FOUND)
   # インクルードパスを指定
   include_directories(${OpenCV_INCLUDE_DIRS} ${PYTHON_INCLUDE_DIRS})

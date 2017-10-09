@@ -2,7 +2,7 @@
 #include <iostream>
 #include <list>
 #include <string>
-#include "opencv2/core.hpp"
+#include "opencv2/core/core.hpp"
 
 EmojiGenLib::EmojiGenLib(void) {
     a = 10;
